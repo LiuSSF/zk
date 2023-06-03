@@ -7,7 +7,7 @@ export default async function (hre: HardhatRuntimeEnvironment) {
   console.log(`Running deploy script for the Greeter contract`);
 
   // 初始化钱包 填入私钥
-  const wallet = new Wallet("054ad37bef43da05876b2f911c125eda57a55f9b8c95221228473a2618cd6e17");
+  const wallet = new Wallet("");
 //785ba85ba57a1196d74bb1e7d51b6b11a4b36c2ea9a569303020a5cdbb3dffc2
 //77a7f928f8606ec417a2aadfffa3afa76ee5201898fe7d78326edae5e2f3c21e 测试网
   // 创建deployer
